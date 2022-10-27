@@ -45,10 +45,23 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 4-bit Count Down Counter
-### Procedure
-/* write all the steps invloved */
+### Procedure:
 
+1.Create a new project in QuartusII software.
 
+2.Name the project as uc for upcounter and dc for down counter.
+
+3.Create a new verilog hdl file in the project file.
+
+4.Name the module as dc and uc for down counter and up counter.
+
+5.Within the module declare input and output variables.
+
+6.Create a loop using if-else with condition parameter as reset value.
+
+7.End the loop.
+
+8.End the module.
 
 ### PROGRAM : 
 /*
@@ -106,5 +119,12 @@ module DC(input CLK,input reset,output[0:3]counter);
 
 
 ### TRUTH TABLE :
+### UP COUNTER:
+![tt1](https://user-images.githubusercontent.com/94165415/198289255-7af409cb-997f-4117-8acc-ded95da4d452.png)
+### DOWN COUNTER:
+![TT](https://user-images.githubusercontent.com/94165415/198289364-8275ee57-52ca-4093-9758-28be81b05f63.png)
+
 
 ### RESULTS :
+
+Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
